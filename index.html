@@ -9,7 +9,7 @@
     <meta name="description" content="Pedro Almeida Web Site">
     <meta name="author" content="Pedro Almeida">
 
-    <title>Pedro Almeida - Github</title>
+    <title>Pedro Almeida - O meu pequeno grande espaço</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -24,6 +24,11 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,6 +61,9 @@
                         <a class="page-scroll" href="#about">Acerca</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#percurso">Percurso</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#services">Tecnologias</a>
                     </li>
                     <li>
@@ -86,23 +94,66 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Acerca de mim</h2>
+                    <h2 class="section-heading">Sobre mim</h2>
                     <hr class="light">
-                    <hr class="light">
-                    <img src="https://scontent-mad1-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/10370957_10202961871842352_7843336169278398207_n.jpg?oh=fc63bd4e83941dbc5bb8c6cdd445192a&oe=57866D1D" width="150" height="150"><br><br>
-                    <p class="text-faded">I'm Pedro Almeida, 20 years old. <br>I'm from Portugal, currently taking out the Bachelor Degree on Computer Engineering at Instituto Superior de Engenharia do Porto.<br>
-                    Some of my interests are music (I play the guitar), computers (web and software development) and technology. (I've a social life too, believe me!)</p>
-                    <a href="#portfolio" class="btn btn-default btn-xl">Ver mais sobre o que fiz!</a>
+                    <img src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-1/p160x160/13239875_10205086315792123_1863742688889157612_n.jpg?oh=02e6a7d38cacf3bf021767a43ebebd88&oe=57D87413" width="150" height="150"><br><br>
+                 <!--   <p class="text-faded">I'm Pedro Almeida, 20 years old. <br>I'm from Portugal, currently taking out the Bachelor Degree on Computer Engineering at Instituto Superior de Engenharia do Porto.<br>
+                    Some of my interests are music (I play the guitar), computers (web and software development) and technology. (I've a social life too, believe me!)</p>-->
+                     <p class="text-faded">Pessoa calma e dedicada. Gosto de inovar e de procurar novas soluções para os problemas, tendo sempre em conta várias alternativas. Gosto de aprender e procuro seguir metodologias ágeis. <br/>Trabalhador e determinado, procuro sempre ocupar o tempo de forma útil. <br/> Tenho vários interesses, entre os quais a música (sou doido por guitarras!), tecnologias e ciência.<br/>Bastante fluente na língua inglesa, interesso-me por saber mais a nível técnico.<br/>Gosto do que faço, faço mira ao sucesso e isso para mim já é vitória.</p>
+                    <a href="#percurso" class="btn btn-default btn-xl">Vê o meu percurso!</a>
                 </div>
             </div>
         </div>
     </section>
 
+    <section id="percurso" class="cd-horizontal-timeline">
+	<div class="timeline">
+		<div class="events-wrapper">
+			<div class="events">
+				<ol>
+					<li><a href="#0" data-date="19/09/2012" class="selected">19 Set</a></li>
+					<li><a href="#0" data-date="08/02/2016">8 Fevereiro</a></li>
+				</ol>
+
+				<span class="filling-line" aria-hidden="true"></span>
+			</div> <!-- .events -->
+		</div> <!-- .events-wrapper -->
+			
+		<ul class="cd-timeline-navigation">
+			<li><a href="#0" class="prev inactive">Prev</a></li>
+			<li><a href="#0" class="next">Next</a></li>
+		</ul> <!-- .cd-timeline-navigation -->
+	</div> <!-- .timeline -->
+
+	<div class="events-content">
+		<ol>
+			<li class="selected" data-date="19/09/2012">
+				<h2>Entrada no Instituto Superior de Engenharia do Porto</h2>
+				<em>19 de Setembro de 2012</em>
+				<img src="http://paginas.fe.up.pt/~specs/events/rec2014/images/logo_ISEP.jpg" />
+				<p>	
+					Neste dia iniciei o meu percurso académico no Instituto Superior de Engenharia do Porto, no curso de Engenharia Informática.
+				</p>
+			</li>
+
+			<li data-date="08/02/2016">
+				<h2>Início de percurso profisional na Glintt Healthcare Solutions</h2>
+				<em>8 de Fevereiro de 2016</em>
+				<img src="http://www.glintt.com/image/company_logo?img_id=11402&t=1464324594507" />
+				<p>	
+					Após um estágio de 4 meses, iniciei carreira na Glintt Healthcare Solutions. Atualmente desenvolvo funções como <i>Software / Web Developer.</i>
+				</p>
+			</li>
+		</ol>
+	</div> <!-- .events-content -->
+	 <a href="#portfolio" class="btn btn-default btn-xl">Vê mais sobre o que fiz!</a>
+</section>
+
     <section id="services">
        <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Technologies</h2>
+                    <h2 class="section-heading">Tecnologias</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -112,29 +163,36 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                        <h3>AngularJS</h3>
-                        <p class="text-muted">I'm familiarized with AngularJS, having made a few projects.</p>
+                        <h3>JavaScript</h3>
+                        <p class="text-muted">Todos os meus projetos envolvem o uso constante de Javascript.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
                         <h3>CSS / HTML5</h3>
-                        <p class="text-muted">My daily basis is affected by HTML5 & CSS! The most important thing on web development.</p>
+                        <p class="text-muted">A base dos meus projetos consiste no uso de HTML5 & CSS3! Sem eles nada seria possível.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>PHP / JavaScript</h3>
-                        <p class="text-muted">I mostly use these to work on my websites. I'm aware there are plenty other technologies!</p>
+                        <h3>PHP / C# .NET</h3>
+                        <p class="text-muted">A construção do <i>backend</i> dos meus projetos consiste em PHP, apesar de trabalhar com .NET diariamente.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3>SQL / JSON / DOM</h3>
+                        <p class="text-muted">Manipulação de dados</p>
+                    </div>
+                </div>
+                 <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
                         <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">I make my websites with love and I put a lot of effort in it! I see it as a way of learning too.</p>
+                        <h3>Inovação e criatividade... Não pode faltar!</h3>
+                        <p class="text-muted"></p>
                     </div>
                 </div>
             </div>
@@ -151,12 +209,12 @@
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="http://csocial-va.pt.vu/" class="portfolio-box">
+                    <a href="http://centrodia-va.comlu.com/index1.html" class="portfolio-box">
                         <img src="img/portfolio/csocial.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Web Development
+                                    Web Development - JavaScript / PHP
                                 </div>
                                 <div class="project-name">
                                     Centro Social Vilar de Andorinho
@@ -166,36 +224,50 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="http://check-in4.pt.la/" class="portfolio-box">
+                    <a href="http://app-teste.comuv.com/" class="portfolio-box">
                         <img src="img/portfolio/checkin.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Web Development
+                                    Web Development - JavaScript / PHP
                                 </div>
                                 <div class="project-name">
-                                    Check-In AdriLu
+                                    Evento de casamento - Check-In
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="http://helene-handmade.pt.vu/" class="portfolio-box">
+                    <a href="http://helene-handmade.site88.net/" class="portfolio-box">
                         <img src="img/portfolio/helene.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Web Development
+                                    Web Development - JavaScript / PHP
                                 </div>
                                 <div class="project-name">
-                                    Helene-Handmade - An online shop
+                                    Helene-Handmade - Loja online
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
- 
+                 <div class="col-lg-4 col-sm-6">
+                    <a href="http://helene-handmade.site88.net/" class="portfolio-box">
+                        <img src="img/portfolio/futsal.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Web Development - JavaScript / PHP
+                                </div>
+                                <div class="project-name">
+                                    Cooltura - Evento de futsal
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -214,7 +286,7 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">pmoalmeida@gmail.com</a></p>
+                    <p><a href="mailto:pmoalmeida1@gmail.com">Manda-me e-mail!</a></p>
                 </div>
             </div>
         </div>
