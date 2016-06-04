@@ -9,6 +9,8 @@ Primary style
 
 #percurso {
   font-size: 62.5%;
+      max-width: 100%;
+    overflow-x: hidden;
 }
 
 #events-content {
@@ -18,10 +20,6 @@ Primary style
   background-color: #f8f8f8;
 }
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
 
 /*a {
   color: #7b9d6f;
