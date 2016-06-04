@@ -7,21 +7,21 @@ Primary style
   box-sizing: border-box;
 }
 
-html {
+#percurso {
   font-size: 62.5%;
 }
 
-body {
+#events-content {
   font-size: 1.6rem;
   font-family: "Fira Sans", sans-serif;
   color: #383838;
   background-color: #f8f8f8;
 }
 
-a {
+/*a {
   color: #7b9d6f;
   text-decoration: none;
-}
+}*/
 
 /* -------------------------------- 
 
