@@ -102,7 +102,7 @@ Main Components
     left: 0;
     top: 49px;
     height: 2px;
-    width: 90% !important;
+    width: 100% !important;
     /* width will be set using JavaScript */
     background: #dfdfdf;
     -webkit-transition: -webkit-transform 0.4s;
