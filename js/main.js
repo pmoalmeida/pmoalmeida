@@ -35,6 +35,7 @@ jQuery(document).ready(function($){
 				event.preventDefault();
 				updateSlide(timelineComponents, timelineTotWidth, 'prev');
 			});
+			$('.next, .prev').hide();
 			//detect click on the a single event - show new event content
 			timelineComponents['eventsWrapper'].on('click', 'a', function(event){
 				event.preventDefault();
